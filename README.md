@@ -1,0 +1,84 @@
+<!-- Global Car Catalog - Clean Anthracite Version with Inter Font -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Car Catalog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #1c1c1c;
+      --text-color: #f0f0f0;
+      --card-bg: #2a2a2a;
+      --accent-color: #4caf50;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+    header, footer {
+      background: #000;
+      color: var(--text-color);
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .car-card {
+      background-color: var(--card-bg);
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .car-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .car-specs {
+      margin-top: 1rem;
+    }
+    .car-specs p {
+      margin: 0.5rem 0;
+    }
+    h1, h2 {
+      color: var(--accent-color);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Global Car Catalog</h1>
+    <p>Discover car models from around the world since 2000</p>
+  </header>
+  <main>
+    <section class="car-card">
+      <h2>Renault Laguna III (2007–2015)</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/2008_Renault_Laguna_DCi_150_2.0_Front.jpg/800px-2008_Renault_Laguna_DCi_150_2.0_Front.jpg" alt="Renault Laguna 3">
+      <div class="car-specs">
+        <p><strong>Fuel:</strong> Diesel / Petrol</p>
+        <p><strong>Transmission:</strong> Manual / Automatic</p>
+        <p><strong>Drive:</strong> Front-wheel drive (FWD)</p>
+        <p><strong>Body style:</strong> Hatchback / Estate / Coupe</p>
+        <p><strong>Engine options:</strong> 1.5–3.5 L (various)</p>
+        <p><strong>Power:</strong> 81–175 kW</p>
+        <p><strong>Production years:</strong> 2007–2015</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Global Car Catalog</p>
+  </footer>
+</body>
+</html>
